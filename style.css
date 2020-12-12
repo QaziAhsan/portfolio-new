@@ -191,10 +191,13 @@ header {
 .home {
     position: absolute;
     text-align: center;
+    padding: 50px;
+    background: #0000008a;
+    border-radius: 20px;
 }
 
 .home h2 {
-    color: #b7b7b7;
+    color: white;
     font-size: 50px;
     font-weight: 500;
     margin: 0 0 30px 0;
@@ -695,6 +698,10 @@ a span.foot_icon:hover {
     .portfolio_bot .portfolio {
         width: 47%;
         margin: 3% 1%;
+    }
+    .home {
+        padding: 0;
+        background: transparent;
     }
 }
 
